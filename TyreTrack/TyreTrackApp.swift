@@ -7,13 +7,17 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct TyreTrackApp: App {
     @StateObject private var appState = AppState()
     @StateObject private var store = GarageStore()
 
-    init() { Self.styleNavigationBar() }
+    init() {
+        Self.styleNavigationBar()
+        FirebaseApp.configure()
+    }
 
     var body: some Scene {
         WindowGroup {
