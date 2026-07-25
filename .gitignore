@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Xcode — user state, never shared
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+
+# Build products
+DerivedData/
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.hmap
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Local tool settings
+.claude/settings.local.json
+
+# Fastlane / CI artefacts
+fastlane/report.xml
+fastlane/screenshots/**/*.png
